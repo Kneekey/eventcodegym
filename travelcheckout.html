@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Travel Paris</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="div-castle">
+                <img class="castle" src="castle.jpg" alt="Error" width="500px">
+                <div class="info">
+                    <h2 class="color">CITY BREAK</h2>
+                    <h3>Paris, France</h3>
+                    <p><span class="color">Hotel:</span> Napoleon Paris, Classic Room, 1 single bed</p>
+                    <p><span class="color">Check-in:</span> Sunday 12 june 2021 from 15:00</p>
+                    <p><span class="color">Check-out:</span> Monday 13 june 2021 until 12:00</p>
+                    <p class="euro-castle">1500 <ion-icon class="euro-castle-icon" name="logo-euro"></ion-icon>/ 2 days</p>
+                    <p class="note">* Prices are per room:<br>incluuded: 10% VAT; city tax; flight not included</p> 
+                </div>
+            </div>
+
+            <div class="div-checkout">
+                <div class="summary">
+                    <table class="table-summary" cellpadding="3px">
+                        <tr>
+                            <th colspan="2" class="summary-title">Summary</th>
+                        </tr>
+                        <tr>
+                            <td>1500 <ion-icon class="euro" name="logo-euro"></ion-icon>x 2 nights</td>
+                            <td class="td-right">3000<ion-icon class="euro" name="logo-euro"></ion-icon></td>
+                        </tr>
+                        <tr>
+                            <td>Discounts (50%)</td>
+                            <td  class="td-right">- 1500<ion-icon class="euro" name="logo-euro"></ion-icon></td>
+                        </tr>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td  class="td-right">1500<ion-icon class="euro" name="logo-euro"></ion-icon></td>
+                        </tr>
+                        <tr>
+                            <td>Other taxes</td>
+                            <td  class="td-right">0</td>
+                        </tr>
+                        <tr>
+                            <td class="total"><b>Total</b></td>
+                            <td class="total-number"><b>1500</b> <ion-icon class="euro-red" name="logo-euro"></ion-icon></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="payment">
+                    <form action="#" method="POST">
+                        <div class="payment-method">
+                            <table class="table-payment" cellpadding="5px">
+                                <tr>
+                                    <th colspan="2" class="payment-title">Payment information</th>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Choose your payment method</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="radio" name="method" value="Paypal"><span>Paypal</span><img src="paypal.png" alt="error" width="50px"></td>
+                                    <td class="td-visa"><input class="method" type="radio" name="method" value="Paypal"><span>Credit Card</span><img src="visa-card.png" alt="error" width="35px"></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="card-info">
+                            <table class="table-card" cellpadding="5px">
+                                <tr>
+                                    <td class="text-card" colspan="2">Credit card number</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input class="number" type="text" style="border: rgb(252, 252, 252);"><hr></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td class="text-card">CVV CODE</td>
+                                    <td class="text-card">Expiration date</td>
+                                </tr>
+                                <tr>
+                                    <td><input class="cvv" type="text" placeholder="XXX" style="border: rgb(252, 252, 252);"><ion-icon class="card-icon" name="card"></ion-icon><hr></td>
+                                    <td><input class="date" type="text" placeholder="MM/YY" style="border: rgb(252, 252, 252);"><ion-icon class="card-icon" name="calendar"></ion-icon><hr></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input class="name" type="text" placeholder="Name on card" style="border: rgb(252, 252, 252);"><hr></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td class="more-info"><a href="#">More info</a></td>
+                                    <td><button class="book">BOOK SECURELY</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
